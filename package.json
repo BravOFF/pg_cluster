@@ -1,6 +1,6 @@
 {
   "name": "pg_cluster",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple module for building cluster with postgresql databases for node v >=7 with 1 dependencies(pg). Support replication mode, maintenance mode.",
   "main": "./src/Cluster.js",
   "scripts": {

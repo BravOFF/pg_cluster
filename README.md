@@ -1,4 +1,4 @@
-# slim_request.
+# pg_cluster.
 ## Description.
 Simple module for building cluster with postgresql databases for node v >=7 with 1 dependencies(pg). Support replication mode, maintenance mode.
 
