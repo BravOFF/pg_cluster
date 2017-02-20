@@ -1,0 +1,37 @@
+{
+  "name": "pg_cluster",
+  "version": "1.0.0",
+  "description": "Simple module for building cluster with postgresql databases for node v >=7 with 1 dependencies(pg). Support replication mode, maintenance mode.",
+  "main": "./src/Cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekonomizer/pg_cluster.git"
+  },
+  "keywords": [
+    "postgresql",
+    "npm",
+    "pg",
+    "cluster",
+    "simple",
+    "async",
+    "await",
+    "node",
+    "replication",
+    "maintenance"
+  ],
+  "author": "ekonomizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekonomizer/pg_cluster/issues"
+  },
+  "homepage": "https://github.com/ekonomizer/pg_cluster#readme",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "pg": "6.1.2"
+  }
+}
