@@ -106,7 +106,7 @@ class Cluster {
     }
 
     randomShard() {
-        const randomInt = Math.floor(Math.random() * (this.shards.length));
+        const randomInt = Math.floor(Math.random() * (Object.keys(this.shards).length));
         return this.shards[Object.keys(this.shards)[randomInt]]
     }
 
