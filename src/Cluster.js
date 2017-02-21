@@ -1,13 +1,13 @@
 'use strict';
 const Db = require('./Db');
 const MaintenanceDb = require('./MaintenanceDb');
-
+const log = {debug: console.log, info: console.log, warn: console.log, error: console.log};
 class Cluster {
 
-    constructor(cfg, log) {
+    constructor(cfg, customLog) {
         this.clusterInMasterMode = true;
         this.cfg = cfg;
-        this.log = log;
+        this.log = customLog || log;
         this.ready = false
     }
 
