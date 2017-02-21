@@ -62,7 +62,7 @@ const config = {
 
 #### Init cluster.
 ```
-const Cluster = require('pg_cluster');
+const Cluster = require('pg-cluster');
 const customLog = console.log;
 try {
     const db = new Cluster(config, customLog);
