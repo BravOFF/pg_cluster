@@ -1,10 +1,10 @@
-# pg_cluster.
+# pg-cluster.
 ## Description.
 Simple module for building cluster with postgresql databases for node v >=7 with 1 dependencies(pg). Support replication mode, maintenance mode.
 
 ###Install module.
 ```
-npm install pg_cluster
+npm install pg-cluster
 ```
 
 ## Usage.
