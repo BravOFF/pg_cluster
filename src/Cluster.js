@@ -47,7 +47,7 @@ class Cluster {
                     return cb();
                 }
                 await this.updateShardsConnections();
-                this.afterInit();
+                this.afterReconnectBrokenShards();
                 cb();
             } catch (e) {
                 rej(e)
@@ -95,6 +95,10 @@ class Cluster {
 
     afterInit() {
 
+    }
+    
+    afterReconnectBrokenShards() {
+        
     }
 
     createShard(shard_name, params) {
